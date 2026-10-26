@@ -1,0 +1,7 @@
+TotalSegmentator==2.18.0
+torch>=2.1.2
+numpy>=1.26,<3
+nibabel>=5.2,<6
+SimpleITK>=2.3,<3
+scipy>=1.11,<2
+pydicom>=2.4,<4
