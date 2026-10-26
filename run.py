@@ -5,10 +5,8 @@ from autoslicer import AutoSlicer
 
 
 # Edit these two folders before running.
-# DICOM_FOLDER = Path(r"D:\CT\case001")
-# OUTPUT_FOLDER = Path(r"D:\results\case001")
-DICOM_FOLDER = Path(r"D:\inertial parameters\Inertial Parameters\ct_root_1\4_F_14_3111")
-OUTPUT_FOLDER = Path(r"D:\inertial parameters\Inertial Parameters\ct_root_1\test")
+DICOM_FOLDER = Path(r"D:\CT\case001")
+OUTPUT_FOLDER = Path(r"D:\results\case001")
 DEVICE = "auto"
 SERIES_UID = None
 LOWER_HU = None
