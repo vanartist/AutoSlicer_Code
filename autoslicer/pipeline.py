@@ -538,4 +538,3 @@ class AutoSlicer:
         payload = {"Patient Metadata": metadata, result_key: result}
         path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         LOGGER.info("Wrote %s", path)
-
