@@ -3,4 +3,3 @@
 from .pipeline import AutoSlicer
 
 __all__ = ["AutoSlicer"]
-
