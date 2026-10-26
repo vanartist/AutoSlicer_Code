@@ -1,5 +1,7 @@
 # AutoSlicer: Head CT to Inertial Parameters
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23653334.svg)](https://doi.org/10.5281/zenodo.23653334)
+
 This project reads a DICOM CT series, runs TotalSegmentator, creates head and neck masks, and calculates mass, center of mass, inertia tensors, principal moments of inertia, and principal axes. Results are reported in both the global RAS coordinate system and a local Frankfort coordinate system.
 
 ## Input data
@@ -103,3 +105,15 @@ The JSON output contains these primary quantities:
 ## Patient data
 
 Do not upload identifiable DICOM data to a public repository. DICOM metadata and burned-in annotations may contain protected health information. Public examples should use synthetic data or data that have been appropriately de-identified and approved for sharing.
+
+## Citation
+
+If you use AutoSlicer in research, cite the archived release:
+
+> Yang, B. (2026). *AutoSlicer: Head CT to Inertial Parameters* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23653334
+
+Machine-readable citation metadata are provided in `CITATION.cff`.
+
+## License
+
+This project is released under the MIT License. See `LICENSE`.
