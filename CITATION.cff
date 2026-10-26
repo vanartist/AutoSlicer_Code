@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "AutoSlicer: Head CT to Inertial Parameters"
+type: software
+version: 1.0.0
+date-released: 2026-10-26
+doi: 10.5281/zenodo.23653334
+authors:
+  - family-names: "Yang"
+    given-names: "Bruce"
+repository-code: "https://github.com/vanartist/AutoSlicer_Code"
+url: "https://doi.org/10.5281/zenodo.23653334"
+license: MIT
+abstract: "An automated Python pipeline for deriving head and neck inertial parameters from DICOM CT scans using TotalSegmentator."
